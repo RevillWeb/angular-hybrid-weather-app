@@ -1,0 +1,41 @@
+{
+  "name": "angular-slides",
+  "authors": [
+    "leon <leon@revillwebdesign.com>"
+  ],
+  "description": "AngularJS module to quickly create a mobile-first application using slide pages.",
+  "main": "angular-slides.min.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "angularjs",
+    "slider",
+    "slides"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".idea"
+  ],
+  "dependencies": {
+    "angular": "~1.3.10"
+  },
+  "devDependencies": {
+    "angular": "~1.3.10"
+  },
+  "homepage": "https://github.com/RevillWeb/angular-slides",
+  "_release": "6f20bfb418",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "6f20bfb41833871640273cea8d5d74b6e387cff8"
+  },
+  "_source": "git://github.com/RevillWeb/angular-slides.git",
+  "_target": "*",
+  "_originalSource": "angular-slides"
+}

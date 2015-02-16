@@ -1,0 +1,49 @@
+.today .location-title {
+    font-size: 60px;
+    font-family: Roboto-Light, sans-serif;
+    padding: 10px 20px 0 20px;
+}
+.today .weather-info {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+.today .weather-icon {
+    text-align: center;
+}
+.today .weather-icon .wi {
+    font-size: 120px;
+    vertical-align: top;
+}
+.today .weather-data {
+    font-size: 30px;
+    font-family: Roboto-Light, sans-serif;
+}
+.today .weather-data .temp {
+    font-size: 60px;
+    font-family: Roboto-Bold, sans-serif;
+}
+.today .weather-data .description {
+    font-size: 20px;
+    font-family: Roboto-Medium, sans-serif;
+    margin-bottom: 20px;
+}
+.today .additional-data {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.today .additional-data .icon {
+    font-size: 40px;
+}
+.today .additional-data p {
+    font-size: 16px;
+    font-family: Roboto-Light, sans-serif;
+}
+
+@media (max-width: 320px) {
+    .today .weather-data .description {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Single Page App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bower_components/angular-slides/angular-slides.min.css" />
+    <link rel="stylesheet" href="assets/weather-icons-master/css/weather-icons.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="sections/today/today.css" />
+
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-slides/angular-slides.min.js"></script>
+
+    <script src="app.js"></script>
+    <script src="sections/five/five.ctrl.js"></script>
+    <script src="sections/today/today.ctrl.js"></script>
+    <script src="sections/sixteen/sixteen.ctrl.js"></script>
+
+</head>
+<body ng-controller="MainController as main">
+<slide-nav></slide-nav>
+<div class="app-container">
+    <div slide-frame></div>
+</div>
+</body>
+</html>
